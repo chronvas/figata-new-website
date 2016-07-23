@@ -9,6 +9,10 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<!---Custom CSS--->
 		<link rel="stylesheet" href="Nursify.css">
+		<!---Imported CSS--->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 	</head>
 
 	<body>
@@ -48,13 +52,19 @@
 							<h1>Nursify</h1>
 							<hr >
 							<p class="lead">Act fast, save lives</p>
-							<a href="" role="button" class="btn btn-danger-outline btn-lg">
+							<a href="#learn-more" role="button" class="btn btn-danger-outline btn-lg">
 								Learn more
 							</a>
-							<a href="#what-is-it" role="button" class="btn btn-danger-outline btn-lg">
-								Play store
+							<a class="btn btn-lg btn-success big-btn android-btn" href="#">
+								<img width="60px" class="pull-left" src="img/google_play.png">
+								<div class="btn-text">
+									<small>Coming soon on</small>
+									<br>
+									<strong>Google Play</strong>
+								</div>
 							</a>
-						</div>
+           
+							</div>
 						<div class="col-sm-6">
 							<img src="img/android.png" alt="Android">
 						</div>
@@ -65,7 +75,7 @@
 		
 		
 		
-		<section id="learn-more" class="feature-full">
+		<section id="learn-more" class="feature-dark">
 			<div class="container">
 				<div class="row">
 					<h2 style="padding-top:4rem;text-align: center;">Nursify is an Android app to request help from nearby volunteers</h2>
@@ -86,7 +96,7 @@
 							<p class="lead">But how do I find this person?</p>
 							<div class="row">
 								<ul>
-									<h6n>You clould:</h6n>
+									<h6n>Realistically, you clould:</h6n>
 									<li>Scream and shout HELP</li>
 									</p>
 									<h6n>OR</h6n>
@@ -101,12 +111,9 @@
 								</ul>									 
 							</div>
 						</div>
-						<div class="col-lg-6 col-lg-offset-1" style="background-color:#DADADA; padding:1rem;">
+						<div class="col-lg-6 col-lg-offset-1 feature-light" style="padding:1rem;">
 							<h2>Usually</h2>
 							<h6n>An ambulance takes about 7 minutes to arrive <a href=" http://www.ambulanceresponsetimes.co.uk/" class="btn btn-link   active" role="button">Link</a></h6n>
-							
-							 
-							
 						</div>
 					</div>
 				</div>
@@ -114,17 +121,61 @@
 		</section>
 		
 		
+<!--- FAQ section --->
+		<section id="faq" class="feature">
+			<div class="container">
+				<div class="row">
+					<div id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingOne">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Collapsible Group Item #1
+									</a>
+								</h4>
+							</div>
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTwo">
+						<h4 class="panel-title">
+							<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Collapsible Group Item #2
+							</a>
+						</h4>
+					</div>
+				<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+			</div>
+		</div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    </div>
+  </div>
+</div>
+
+ 
+			</div>
+		</section>
 		
-		
-		
-<footer id="main-footer" class="footer feature-dark">
+		<footer id="main-footer" class="footer feature-dark">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
 						<span class="text-md-left">&copy; 2016 Figata</span>
 					</div>
 					<div class="col-md-4">
-						<span class="text-md-right">Made with (L) in Greece</span>
+						<span class="text-md-right">Made with <i class="fa fa-camera-retro"></i> fa-4x in Greece</span>
 					</div>
 				</div>				
 			</div>
@@ -134,7 +185,8 @@
 		<!---jQuery--->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		
+		 
+</script>
 		
 	</body>
 </html>

@@ -2,6 +2,7 @@
 html,
 body {
 	height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -84,6 +85,13 @@ img {
 	color:#CB0000
 }
 
+.feature-light {
+	background: #F3F3F3;
+}
+
+.feature-light h2 {
+	color:#CB0000
+}
 .feature-image{
 	padding: 1em;
 }
@@ -98,7 +106,39 @@ img {
 	padding: 1rem;
 }
 
+ 
+ /* FAQ style */
+  .faqHeader {
+        font-size: 27px;
+        margin: 20px;
+    }
 
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "e072"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
+ 
+ 
 
 @media screen and ( min-width: 991px ) {
 
@@ -111,6 +151,57 @@ img {
 		align-items: flex-end;
 	}
 }
+ 
+ 
+ .big-btn{
+padding: 10px 0px 11px 0px;
+width: 215px;
+margin-top:0px;
+}
 
+.big-btn i{
+font-size: 1rem;
+margin-right: 0px !important;
+}
+.big-btn strong{
+font-size: 1rem;
+text-shadow: 1px 2px 0px #34659B;
+color: #fff;
+line-height: 6px;
+}
+.big-btn .btn-text{
+	margin-top:6px;
+}
+
+.big-btn small{
+	font-size: 65%;
+}
+
+.android-btn{
+	width: 200px;
+	padding: 0px 17px 13px 0px;
+	background-color: #000;
+	border-color: #000;
+}
+.android-btn:hover{
+background-color: #272727;
+}
+
+.android-btn i{
+font-size: 5px;
+}
+.android-btn img{
+padding-top: 8px;
+}
+.android-btn .btn-text{
+margin-top: 0px;
+}
+
+.android-btn strong{
+font-size: 15px;
+text-shadow: none;
+color: #fff;
+line-height: 24px;
+}
 
 

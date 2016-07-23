@@ -2,6 +2,7 @@
 html,
 body {
 	height: 100%;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -83,8 +84,21 @@ img {
 	color: black;
 }
  
- 
- 
+.btn-group{
+	display: flex;
+	justify-content: center; 
+}
+
+.btn-group .btn{
+	display: flex;
+	justify-content: center;
+	background:#505050;
+}
+
+#checkgit{
+	display: flex;
+	justify-content: center;
+}
  
  
 @media screen and ( min-width: 991px ) {
@@ -96,6 +110,10 @@ img {
 	
 	.card{
 		display: flex;
+	}
+	
+	.btn-group{
+		align-items: center;
 	}
 }
 
