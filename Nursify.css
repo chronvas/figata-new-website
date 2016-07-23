@@ -19,7 +19,11 @@ h6 {
 	font-size: 0.8rem;
 	letter-spacing: 0.1rem;
 }
-
+h6n {
+	font-weight: bold;
+	font-size: 1.2rem;
+	letter-spacing: 0.1rem;
+}
 img {
 	max-width: 100%;
 }
