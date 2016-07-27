@@ -73,20 +73,20 @@ img {
 #main-footer{
 	padding: 2rem 0;
 	font-size: 0.85rem;
+	color: black;
 }
-
 
 .card img{
 	padding: 2rem; 
-}
-	
-#main-footer {
-	color: black;
 }
  
 .btn-group{
 	display: flex;
 	justify-content: center; 
+}
+
+.jumbotron{
+	margin-bottom:0;
 }
 
 .btn-group .btn{
@@ -98,6 +98,8 @@ img {
 #checkgit{
 	display: flex;
 	justify-content: center;
+	align-items: center; 
+	max-width:280px;
 }
  
  
